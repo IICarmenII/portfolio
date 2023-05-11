@@ -1,0 +1,389 @@
+
+
+h1 {
+  margin-bottom: 0px !important;
+}
+
+@media (min-width: 992px)
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
+
+.icoon img {
+    border-radius: 50%;
+    width: 110px;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 35%;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.18);
+}
+
+.icoon img:hover {
+  opacity: 0.8;
+}
+
+.title {
+  margin-left: 0px !important;
+}
+
+
+button {
+  background: linear-gradient(to right, rgb(201,47,89), rgb(212, 54, 113), rgb(138,43,125));
+  color: #FFFFFF  !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.18);
+  border-radius: 50px 50px 50px 50px;
+  border: none;
+  text-align: center;
+  width: 100%;
+  padding: 17px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #000000;
+  margin-top: 1%;
+}
+
+/* portfolio  */
+#portfolio {
+  width:100%;
+  margin:20px 0px;
+}
+
+.filter {
+  text-align: center;
+}
+
+.filter p{
+  padding-top: 15px;
+  color: #000000;
+  /*background-color: #FFFFFF;*/
+  /* border-radius: 50px; */
+  border: 5px solid #FFFFFF;
+  max-width: 100%; 
+}
+ .filter p:hover {
+  cursor:pointer;
+  opacity: 0.8;
+  border-bottom: 2px solid #000000;
+}
+
+.tile {
+  float:left;
+  height: 200px;
+  border-radius: 10px;
+  border:4px #FFFFFF solid;
+  opacity: 0.8;
+  padding: 25px;
+
+}
+
+.tile a:hover {
+  text-decoration: none;
+}
+
+.tile:hover {
+    opacity: 1;
+}
+
+
+/* CHANGE THE COLORS OF THE OPDRACHTEN OVER HERE!!!*/
+/*.empathie{
+	background: #162833; 
+}
+
+.definitie{
+	background:#274659 ; 
+}
+
+.ideatie{
+	background: #417494; 
+}
+
+.prototype{
+	background: #5091BA; 
+}
+
+.testing{
+	background: #70C8FF; 
+}
+
+.overig{
+	background: #C4E9FF; 
+}
+*/
+
+
+.all{
+	background-color: black; 
+}
+
+.Begin {
+  background-color: rgb(65, 98, 166);
+}
+
+.Empathize {
+  background-color: rgb(35, 53, 89);
+}
+
+.Define {
+  background-color: rgb(79, 91, 115);
+}
+
+.Ideate {
+  background-color: rgb(22, 33, 56);
+}
+
+.Prototype {
+  background-color: rgb( 114, 131, 166);
+}
+
+.TestFase {
+	background-color: rgb(170, 177, 191);
+}
+
+/* template  */
+.icoon-template img {
+  border-radius: 50%;
+  width: 60px;
+  height: auto;
+  margin-top: 15%;
+  margin-left: 35%;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.18);
+}
+
+.icoon-template img:hover {
+  opacity: 0.8;
+}
+
+.btn-leeswijzer-template {
+  margin-left: 0px !important;
+  margin-top: 2%;
+}
+
+/*------------ TAGS ----------*/
+
+.tags {
+	height: 200px;
+	width: 200px;
+/*	background-color: green;*/
+	position: fixed;
+	top: 200px;
+	right: 0;
+  font-family: Work sans, sans-serif !important;
+  z-index: 999;
+}
+
+.tag {
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	right: -150px;
+	animation: tagIn 0.3s;
+	color: white;
+	font-size: 11px;
+	text-align: center;
+	line-height: 15px;
+  opacity: 0.8;
+}
+
+.tag a, .tagShort a, .tagLong a{
+  color: #FFFFFF;
+}
+
+.tag a:hover, .tagShort a:hover, .tagLong a:hover{
+  color: #FFFFFF;
+}
+
+.tag1 {
+}
+
+#volgende {
+  background-color: rgb(201,47,89);
+}
+
+.tag2 {
+  margin-top: 45px;
+}
+
+#vorige {
+  background-color: rgb(138,43,125);
+}
+
+.tagShort {
+	width: 50px;
+	height: 40px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tagLong {
+	width: 150px;
+	height: 40px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#portfolio {
+  width:100%;
+  margin:20px 0px;
+}
+
+.filter {
+  text-align: center;
+}
+
+.filter p{
+  padding-top: 7.5px;
+  padding-bottom: 7.5px; 
+  /*color: #303030; */
+  /*background-color: #FFFFFF;*/
+  /* border-radius: 50px; */
+  border: 5px solid #FFFFFF;
+  color: white; 
+}
+ .filter p:hover {
+  cursor:pointer;
+  opacity: 0.8;
+  border-bottom: 2px solid #000000;
+}
+
+.tile {
+  float:left;
+  height: 200px;
+  border-radius: 10px;
+  border:4px #FFFFFF solid;
+  opacity: 0.8;
+  padding: 10px;
+
+}
+
+.scale-anm {
+  transform: scale(1);
+}
+
+.tile a:hover {
+  text-decoration: none;
+}
+
+.tile:hover {
+    opacity: 1;
+}
+
+.vlak {
+    height: auto;
+    /* opacity: 0.8; */
+    border: 30px #FFFFFF solid;
+    color: #FFFFFF !important;
+}
+
+.onderzoeksfase {
+  background: #f6a5eb;
+}
+
+.conceptfase {
+  background: #FF719E;
+}
+
+.persoonlijke-ontwikkelfase {
+  background: #ff8b94;
+}
+
+.ontwerpfase {
+  background: #faa99d;
+}
+
+.ontwikkelfase {
+  /* background: #fddf7e; */
+  background: #ffd561;
+}
+
+.marketingsfase {
+  background: #A5E0F7;
+}
+
+.afsluitingsfase {
+  background: #a8e6cf;
+}
+
+.leeg {
+  background: #6a6a6a;
+}
+
+
+#myImg, #myImg1, #myImg2, #myImg3, #animatie, #Img {
+  cursor: pointer;
+  transition: 0.3s;
+  /* opacity: 1;
+  height: 100%;
+  max-height: 350px; */
+  max-width: 700px;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.18);
+}
+
+#myImg:hover, #myImg1:hover, #myImg2:hover, #myImg3:hover {
+  opacity: 0.6;
+}
+
+.tag:hover {
+	animation: tagOut 0.3s;
+	right: 0px;
+  opacity: 1;
+}
+
+@keyframes tagOut {
+  0% {
+    right: -150px;
+  }
+
+  100% {
+    right: 0;
+  }
+
+}
+
+@keyframes tagIn {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: -150px;
+  }
+
+}
+.filter {
+    text-align: center;
+}
+
+
+/* VOORUIT EN ACHTERUIT KNOPPEN OPDRACHTEN*/
+#volgende {
+    background-color: rgb(201,47,89);
+}
+.tag2 {
+    margin-top: 45px;
+}
+.tag {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    right: -150px;
+    animation: tagIn 0.3s;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    line-height: 15px;
+    opacity: 0.8;
+}

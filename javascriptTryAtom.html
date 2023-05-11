@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patrick Rothfuss</title>
+<script type="text/javascript">
+
+function setup(){
+console.log("test2");
+//createCanvas(200,200);
+loadJSON('http://api.openweathermap.org/data/2.5/weather?q=madison,3166&appid=cea0d325cc34c599ddffe33888ca963c&units=metric', gotData);
+console.log("test3");
+}
+
+function gotData(data){
+console.log("test");
+}
+
+function draw(){
+background(0);
+}
+</script>
+</head>
+<body onload="setup();">
+
+
+
+<br>
+<!--
+<iframe width="350" height="430" allow="microphone;"
+src="https://console.dialogflow.com/api-client/demo/embedded/cd8229ba-55be-434b-a440-5a7acb31d8eb"
+></iframe>
+
+
+<a class="twitter-timeline" data-width="500" data-height="1000" href="https://twitter.com/PatrickRothfuss?ref_src=twsrc%5Etfw">Tweets by PatrickRothfuss</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!--https://api.twitter.com/1.1/search/tweets.json-->
+<!--
+<br>
+<!--
+<iframe width="350" height="430" allow="microphone;"
+src="https://console.dialogflow.com/api-client/demo/embedded/cd8229ba-55be-434b-a440-5a7acb31d8eb"
+></iframe>-->
+
+<br>
+</body>
+</html>
